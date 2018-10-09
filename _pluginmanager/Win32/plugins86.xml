@@ -2,7 +2,7 @@
 <plugins>
 	<plugin name="AutoEolFormat">
 		<unicodeVersion>1.0</unicodeVersion>
-		<description>AutoEolFormat: A plugin to automatically set a document's EOL (End of Line) format to your needs on loading or renaming a document or activating its tab.</description>
+		<description>AutoEolFormat: A plugin to automatically set a document's EOL (End of Line) format to your needs on loading, saving or renaming a document or activating its tab.</description>
 		<author>Andreas Heim</author>
 		<sourceUrl>https://github.com/dinkumoil/AutoEolFormat</sourceUrl>
 		<latestUpdate></latestUpdate>

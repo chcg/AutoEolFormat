@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+	<plugin name="AutoEolFormat">
+		<unicodeVersion>1.0</unicodeVersion>
+		<description>AutoEolFormat: A plugin to automatically set a document's EOL (End of Line) format to your needs on loading or renaming a document or activating its tab.</description>
+		<author>Andreas Heim</author>
+		<sourceUrl>https://github.com/dinkumoil/AutoEolFormat</sourceUrl>
+		<latestUpdate></latestUpdate>
+		<install>
+			<unicode>
+				<download>https://github.com/dinkumoil/AutoEolFormat/releases/download/v1.0/AutoEolFormat_v1.0_UNI.zip</download>
+				<copy from="Win32\AutoEolFormat.dll" to="$PLUGINDIR$\" validate="true"/>
+				<copy from="AutoEolFormat.txt" to="$PLUGINDIR$\doc"/>
+			</unicode>
+		</install>
+		<remove>
+			<unicode>
+				<delete file="$PLUGINDIR$\doc\AutoEolFormat.txt"/>
+			</unicode>
+		</remove>
+	</plugin>
+</plugins>
